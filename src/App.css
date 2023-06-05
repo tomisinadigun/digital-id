@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.ids-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+}
+.id-card {
+  color: black;
+  height: 520px;
+  min-width: 340px;
+  max-width: 340px;
+  border-radius: 28px;
+  /* border: 1px solid white; */
+  background-color: white;
+  box-shadow: 0px 2px 6px 4px rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+}
+.id-card-inner {
+  height: 82%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-block: 20px;
+}
+
+.id-location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column-gap: 10px;
+  font-size: 14px;
+
+  font-weight: 400;
+}
+
+.profile-img-container {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-img-container img {
+  border: 1px solid lightgrey;
+  padding: 5px 5px;
+  border-radius: 50%;
+  min-width: 176px;
+  max-width: 176px;
+  min-height: 176px;
+  max-height: 176px;
+}
+
+.user-info {
+  text-align: center;
+  padding-inline: 30px;
+}
+
+.user-info h3 {
+  font-size: 30px;
+}
+
+.user-info p {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.follow-btn {
+  padding-inline: 40px;
+  box-shadow: 0px 2px 6px 2px rgba(128, 128, 128, 0.2);
+  background-color: #47A992;
+}
+
+
+/* footer  */
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #213555;
+  padding: 30px 10px;
+}
+
+.footer-item {
+  display: flex;
+  align-items: center;
+  grid-column-gap: 10px;
+}
+
+.footer-icon {
+  font-size: 22px;
+  color: red;
+}
+
+.footer-item p{
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 12px;
+  color: red;
+}
+.footer-item span{
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 12px;
+  color: white;
+}
+
+.footer-info {
+  text-align: center;
+}
